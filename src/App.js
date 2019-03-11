@@ -9,9 +9,14 @@ const API_KEY = "5a31f6a280fb3a8f981b81c017bb66ae";
 
 //initialise a componet
 class App extends React.Component {
+
   getWeather = async () =>{
     const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=Pretoria,Gauenteng&APPID=${API_KEY}`);
+    const data =  await api_call.json();
+
+    console.log(data);
   }
+
   render(){
     return (
         <div>
