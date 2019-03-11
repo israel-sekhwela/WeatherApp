@@ -1,5 +1,8 @@
 ## Weather APP
 
+This App makes use of a weather API from: OpenWeatherMap
+source: https://openweathermap.org/api
+
 In the project directory, you can run:
 
 ### `npm start`
